@@ -1,10 +1,12 @@
 <?php
 
-// var_dump($argc);
+// version 2 with args as comments
+//var_dump($argc);
 //var_dump($argv);
-if ($argc == 3) {
+// if ($argc == 3) {
+	// This only starts after hitting enter twice
 	//echo "arg1 is {$argv[1]} and arg2 is {$argv[2]}\n";
-	}
+	// }
 $rand_num = rand($argv[1], $argv[2]);
 // $rand_num = mt_rand(1,100);
 // fwrite(STDOUT, 'Can you guess the number?  ');
