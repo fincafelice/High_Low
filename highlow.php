@@ -1,6 +1,12 @@
 <?php
 
-$rand_num = mt_rand(1,100);
+// var_dump($argc);
+//var_dump($argv);
+if ($argc == 3) {
+	//echo "arg1 is {$argv[1]} and arg2 is {$argv[2]}\n";
+	}
+$rand_num = rand($argv[1], $argv[2]);
+// $rand_num = mt_rand(1,100);
 // fwrite(STDOUT, 'Can you guess the number?  ');
 $userGuess = fgets(STDIN);
 $count = 0;
